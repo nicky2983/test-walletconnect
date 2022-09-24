@@ -6,7 +6,11 @@
     "removeComments": false,
     "sourceMap": true,
     "target": "es5",
-    "outDir": "wwwroot/tsscripts"
+    "outDir": "wwwroot/tsscripts",
+    "module": "ESNext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src/**/*"

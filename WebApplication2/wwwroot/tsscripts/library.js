@@ -2,7 +2,7 @@ var jqtest = {
     showMsg: function () {
         var v = jQuery.fn.jquery.toString();
         var content = $("#ts-example-2")[0].innerHTML;
-        alert(content.toString() + " " + v + "!!");
+        //alert(content.toString() + " " + v + "!!");
         $("#ts-example-2")[0].innerHTML = content + " " + v + "!!";
     }
 };
